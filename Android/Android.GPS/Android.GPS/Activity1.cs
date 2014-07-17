@@ -67,7 +67,7 @@ namespace Android.GPS
             _mapView.MapCenter = new GeoCoordinate(51.0992, 4.5374);
             _mapView.MapZoom = 17;
             _mapView.MapAllowTilt = false;
-            _mapView.MapScaleFactor = 3;
+            _mapView.MapScaleFactor = 1;
 
             // create marker.
             _mapMarker = new MapMarker(this, _mapView.MapCenter);
